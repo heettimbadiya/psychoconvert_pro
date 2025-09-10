@@ -10,6 +10,7 @@ export default function AOSProvider() {
       easing: 'ease-out-cubic',
       once: false,
       offset: 80,
+        mirror: true,
     })
 
     const handleRefresh = () => {
