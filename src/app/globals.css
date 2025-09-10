@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  html, body {
+    @apply bg-background text-text-primary font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-cta hover:shadow-cta-hover inline-flex items-center justify-center;
+  }
+  .connector-line {
+    @apply hidden md:block w-px bg-accent mx-auto;
+  }
+  .form-field {
+    @apply bg-white border border-primary-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent;
+  }
+  .transition-smooth {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+/* Carry over custom effects from static page */
+.parallax-hero {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.9)),
+              url('https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2940&auto=format&fit=crop') center/cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.brain-section { transition: all 0.3s ease; }
+.brain-section:hover { transform: scale(1.05); }
+.urgency-pulse { animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.7}}
+
