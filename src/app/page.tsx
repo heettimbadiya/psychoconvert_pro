@@ -48,10 +48,10 @@ export default function HomePage() {
               <span className="text-xl font-bold text-primary">PsychoConvert Pro</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#solution" className="text-secondary hover:text-primary transition-smooth" data-aos="fade-down" data-aos-delay="150" data-aos-once="false">Solution</a>
-              <a href="#process" className="text-secondary hover:text-primary transition-smooth" data-aos="fade-down" data-aos-delay="200" data-aos-once="false">Process</a>
-              <a href="#industries" className="text-secondary hover:text-primary transition-smooth" data-aos="fade-down" data-aos-delay="250" data-aos-once="false">Industries</a>
-              <a href="#testimonials" className="text-secondary hover:text-primary transition-smooth" data-aos="fade-down" data-aos-delay="300" data-aos-once="false">Results</a>
+              <a href="#solution" className="text-primary hover:text-accent transition-smooth" data-aos="fade-down" data-aos-delay="150" data-aos-once="false">Solution</a>
+              <a href="#process" className="text-primary hover:text-accent transition-smooth" data-aos="fade-down" data-aos-delay="200" data-aos-once="false">Process</a>
+              <a href="#industries" className="text-primary hover:text-accent transition-smooth" data-aos="fade-down" data-aos-delay="250" data-aos-once="false">Industries</a>
+              <a href="#testimonials" className="text-primary hover:text-accent transition-smooth" data-aos="fade-down" data-aos-delay="300" data-aos-once="false">Results</a>
               <a href="#demo" className="btn-primary" data-aos="zoom-in" data-aos-delay="350" data-aos-once="false">Book Demo</a>
             </div>
             <button className="md:hidden p-2" aria-label="Open menu">
